@@ -1,0 +1,42 @@
+body {
+    color: #faf9f9;
+}
+
+aside {
+    background-color: #89b0ae;
+}
+
+body > nav {
+    background-color: #555b6e;
+}
+
+main {
+    color:  #555b6e;
+    background-color: ghostwhite;
+}
+
+footer {
+    background-color: #555b6e;
+    color: #faf9f9;
+}
+
+.form-buttons, .posts, .comments{
+    background-color: #555b6e;
+    color:#faf9f9;
+}
+
+.nav-link:hover {
+    transition: color 300ms;
+    color:#ffd6ba;
+}
+
+.side-nav:hover{
+    transition: color 300ms;
+    color:#555b6e;
+}
+
+.form-buttons:hover, .posts:hover, .comments:hover {
+    transition: background-color 300ms;
+    background-color: #ffd6ba;
+    color: #555b6e;
+}

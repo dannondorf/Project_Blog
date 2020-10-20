@@ -1,0 +1,84 @@
+
+
+body > nav {
+    display: flex;
+    padding: 0 2em;
+    justify-content: space-between;
+}
+
+body > nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+body > nav > ul > li {
+    text-decoration: none;
+    padding-left: 2em; 
+}
+
+.maincontainer {
+    display: flex;
+}
+aside  {
+    padding: 2em 1.5em 5em 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 1000px;
+}
+
+aside > ul > li {
+    padding-bottom: 1em;
+}
+
+main {
+    display: flex;
+   width: 100%;
+   flex-direction: column;
+}
+main > section {
+   display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    
+    width: 100%;
+    bottom: 0;
+    justify-content: space-around;
+}
+
+.blog-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.comments {
+    margin: 1em 1em 0 1em;
+    padding : 1em;
+    border-radius: 25px;
+}
+
+.posts {
+    padding: 0em 2.15em;
+    margin: 1em 1em 0 1em;
+    border-radius: 25px;
+}
+
+section {
+    padding: 0 2em 2em 2em;
+}
+
+.edit-form {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
+

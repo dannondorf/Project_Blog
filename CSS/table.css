@@ -1,0 +1,43 @@
+table.greyGridTable {
+  border: 2px solid #89B0AE;
+  background-color: #FAF9F9;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.greyGridTable td, table.greyGridTable th {
+  border: 1px solid #89B0AE;
+  padding: 3px 4px;
+}
+table.greyGridTable tbody td {
+  font-size: 13px;
+  color: #555B6E;
+}
+table.greyGridTable td:nth-child(even) {
+  background: #BEE3DB;
+}
+table.greyGridTable thead {
+  background: #FAF9F9;
+  border-bottom: 4px solid #555B6E;
+}
+table.greyGridTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #555B6E;
+  text-align: center;
+  border-left: 2px solid #89B0AE;
+}
+table.greyGridTable thead th:first-child {
+  border-left: none;
+}
+
+table.greyGridTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555B6E;
+  background: #FAF9F9;
+  border-top: 4px solid #555B6E;
+}
+table.greyGridTable tfoot td {
+  font-size: 14px;
+}
