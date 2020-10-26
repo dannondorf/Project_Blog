@@ -1,4 +1,4 @@
-import {tHead, tBody} from "environment.js";
+import {tHead, tBody} from "/environment.js";
 
 
 
