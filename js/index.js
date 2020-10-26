@@ -1,7 +1,7 @@
 
-import {getData} from "./dataUtilities.js";
-import {url, navButtons} from "./environment.js";
-import {setShownTable} from "./formBuilder.js";
+import {getData} from "dataUtilities.js";
+import {url, navButtons} from "environment.js";
+import {setShownTable} from "formBuilder.js";
 
 
 getData(url + 'posts');

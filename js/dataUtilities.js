@@ -1,5 +1,5 @@
-import {url} from "./environment.js";
-import {populateHeaders, populateTableBody} from "./tableBuilder.js";
+import {url} from "environment.js";
+import {populateHeaders, populateTableBody} from "tableBuilder.js";
 export let headers;
 
 export function getData(url) {
