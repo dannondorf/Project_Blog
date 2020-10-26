@@ -2,11 +2,11 @@ import {
     headers,
     deletePost,
     deleteComment
-} from "/dataUtilities.js";
+} from "./dataUtilities.js";
 import {
     editForm,
     tBody,
-} from "/environment.js";
+} from "./environment.js";
 
 let shownTable = '';
 editForm.style.display = "none";

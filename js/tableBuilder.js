@@ -1,4 +1,4 @@
-import {tHead, tBody} from "/environment.js";
+import {tHead, tBody} from "./environment.js";
 
 
 
@@ -20,5 +20,4 @@ export function populateTableBody(data, headers) {
         final += `<tr>${output}<td><button class="form-buttons">Edit</button><button class="form-buttons">Delete</button></td></tr>`;
     })
     tBody.innerHTML = final;
-    
  }
