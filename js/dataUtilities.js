@@ -18,12 +18,12 @@ export function deletePost(id) {
     fetch(url + 'posts/' + id, {
         method: 'DELETE'
     })
-    .then(getData(url + 'posts'));
+    .then(getData(url + 'posts/'));
 }
 
 export function deleteComment(id) {
     fetch(url + 'comments/' + id, {
         method: 'DELETE'
     })
-    .then(getData(url + 'comments'));
+    .then(getData(url + 'comments/'));
 }
