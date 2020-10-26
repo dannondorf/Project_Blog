@@ -1,6 +1,6 @@
-@import "colors.css";
-@import "flex-box.css";
-@import "table.css";
+@import url("colors.css");
+@import url("flex-box.css");
+@import url("table.css");
 
 
 *, *:before, *:after {
